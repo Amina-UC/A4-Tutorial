@@ -19,10 +19,14 @@ class _DataTransferState extends State<DataTransfer> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             GestureDetector(
-                onTap: (){
-                  Navigator.push(context, MaterialPageRoute(
-                    builder: (context)=>Data2(var1: "abcd",img: "assets/food.jpg",)
-                  ));
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => Data2(
+                                var1: "abcd",
+                                img: "assets/food.jpg",
+                              )));
                 },
                 child: Container(
                     height: 30,
